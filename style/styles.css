@@ -178,5 +178,8 @@ padding-top: 10px;
   .sidenav a{font-size: 18px;}
   #logo{margin:25px;}
   .footer{z-index: 1; position: relative;}
+  .grid{padding-right: 75px;grid-template-columns: 200px 200px}
+  .foodBar img{width: 150px; height: 150px;}
+
 
 }

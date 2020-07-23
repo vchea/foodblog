@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>CVM Food Blog</title>
+   <script>
+            $(function(){
+                $("#jfood").load("./component/jfood.html");
+                $("#keto").load("./component/keto.html");
+            });
+        </script>
+</head>
+<body>
+<!-- Navigation Bar -->
+<div id ="navigation">
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./component/kfood.html">Khmer Food</a>
+    <a href="./component/jfood.html">Japanese Food</a>
+    <a href="./component/keto.html">Keto</a>
+    <a href="./component/dessert.html">Dessert</a>
+  </div>
+  
+  <div id="main">
+      <span id= "menu"onclick="openNav()">Menu&#9776;</span>
+      <!-- Banner -->
+      <img id= "banner" src ="image/banner.png" width= "460" height ="345">
+   
+
+  
+<!-- mission -->
+<div id ="mission"><h1>My Mission</h1>
+  <h2>Hello Everyone!!!</h2> <p>The purpose of creating this blog is that I would to share the food
+    I ate to everyone of you because I love eating :)
+  </p>
+</div>
+
+<!-- categories -->
+<div class = "categories">
+  <h1>Food Categories</h1>
+<div class="row" >
+      <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+        <img id = "logo" alt= "kfood" src="image/kfood/khmer.png" width="200" height ="200"></div>
+  <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+    <img id = "logo" alt= "kfood" src="image/jfood/jfood.png" width="200" height ="200" ></div>
+  <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+      <img id = "logo" alt= "keto" src="image/keto/keto.png"width="200" height ="200"></div>
+  <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+        <img  id = "logo" alt= "dessert" src="image/dessert/dessrt.png" width="200" height ="200"></div>
+      <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+        <img id = "logo" alt= "drink" src="image/drink/drink.png" width="200" height ="200" ></div>
+      <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+          <img id = "logo" alt= "homemade" src="image/homemade/homemade.png"width="200" height ="200"></div>
+</div>
+</div>
+  </div>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> 
+   <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+   <script src="./js/index.js" charset="utf-8"></script>
+</body>
+ <!-- footer -->
+<footer class= "footer"> Copyright ⓒ 2020
+  <p>Created by CVM</p>
+</footer>
+</div>
+</div>
+
+
+</html>

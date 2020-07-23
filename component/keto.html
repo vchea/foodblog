@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Japanese Food</title>
+</head>
+<body>
+    <!--Navigation bar-->
+       <!-- Navigation Bar -->
+
+<div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="kfood.html">Khmer Food</a>
+        <a href="jfood.html">Japanese Food</a>
+        <a href="keto.html">Keto</a>
+        <a href="dessert.html">Dessert</a>
+      </div>
+      
+      <div id="main">
+          <span id= "menu"onclick="openNav()">Menu&#9776;</span>
+      
+      <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "220px";
+        document.getElementById("main").style.marginLeft = "220px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+    <!--end of Navigation bar -->
+    <!-- Food bar  -->
+    <div class="foodBar">
+    <h1>KETO</h1> 
+    <div class= "grid">
+        <div class = "items" id ="color"><img id ="color" src="../image/keto/beef.JPG">
+        </div>
+        <div class = "items" id ="noncolor"><p>Beef Touge and Steak with salt <br> pepper and lemon is good combination</p></div>
+        <div class = "items" id ="noncolor"><p>Lemon and grill salmon with a good temperature of cooking</p></div>
+        <div class = "items" id ="color"><img src= "/Users/vimeanchea/cvmfoodvlog/image/keto/beefgalic.JPG"></div>
+        <div class = "items" id ="color"> <img src= "/Users/vimeanchea/cvmfoodvlog/image/keto/beefgalic.JPG"></div>
+        <div class = "items" id ="noncolor"><p>Rose Mary, Thyme, Galic and butter make your steak tastes absoluately perfect!!!</p></div>
+        
+    </div>
+</div> 
+</div>
+</body>
+<footer class= "footer"> Copyright ⓒ 2020
+        <p>Created by CVM</p>
+      </footer>
+
+</html>

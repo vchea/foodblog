@@ -176,5 +176,7 @@ padding-top: 10px;
   .items {border: 200px; font-size: 20px;}
   .items p{padding-top: 15px;}
   .sidenav a{font-size: 18px;}
+  #logo{margin:25px;}
+  .footer{z-index: 1; position: relative;}
 
 }

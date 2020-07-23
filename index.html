@@ -10,12 +10,6 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>CVM Food Blog</title>
-   <script>
-            $(function(){
-                $("#jfood").load("./component/jfood.html");
-                $("#keto").load("./component/keto.html");
-            });
-        </script>
 </head>
 <body>
 <!-- Navigation Bar -->
@@ -26,6 +20,8 @@
     <a href="./component/jfood.html">Japanese Food</a>
     <a href="./component/keto.html">Keto</a>
     <a href="./component/dessert.html">Dessert</a>
+    <a href="./component/drink.html">Drink</a>
+    <a href="./component/homemade.html">Homemade</a>
   </div>
   
   <div id="main">
@@ -46,22 +42,28 @@
 <div class = "categories">
   <h1>Food Categories</h1>
 <div class="row" >
-      <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-        <img id = "logo" alt= "kfood" src="image/kfood/khmer.png" width="200" height ="200"></div>
+      <div data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
+        <a href="./component/kfood.html"> 
+          <img id = "logo" alt= "kfood" src="image/kfood/khmer.png" width="200" height ="200"></a></div>
   <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-    <img id = "logo" alt= "kfood" src="image/jfood/jfood.png" width="200" height ="200" ></div>
+      <a href="./component/jfood.html">
+    <img id = "logo" alt= "jfood" src="image/jfood/jfood.png" width="200" height ="200" ></a></div>
   <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-      <img id = "logo" alt= "keto" src="image/keto/keto.png"width="200" height ="200"></div>
+      <a href="./component/keto.html">
+    <img id = "logo" alt= "keto" src="image/keto/keto.png"width="200" height ="200"></a></div>
   <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-        <img  id = "logo" alt= "dessert" src="image/dessert/dessrt.png" width="200" height ="200"></div>
+      <a href="./component/dessert.html">
+        <img  id = "logo" alt= "dessert" src="image/dessert/dessrt.png" width="200" height ="200"></a></div>
       <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-        <img id = "logo" alt= "drink" src="image/drink/drink.png" width="200" height ="200" ></div>
+          <a href="./component/drink.html">
+        <img id = "logo" alt= "drink" src="image/drink/drink.png" width="200" height ="200" ></a></div>
       <div class="col-6 col-md-4" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
-          <img id = "logo" alt= "homemade" src="image/homemade/homemade.png"width="200" height ="200"></div>
+          <a href="./component/homemade.html">
+          <img id = "logo" alt= "homemade" src="image/homemade/homemade.png"width="200" height ="200"></a></div>
 </div>
 </div>
-  </div>
- 
+
+ </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script> 
    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
    <script src="./js/index.js" charset="utf-8"></script>
@@ -70,8 +72,4 @@
 <footer class= "footer"> Copyright ⓒ 2020
   <p>Created by CVM</p>
 </footer>
-</div>
-</div>
-
-
 </html>
